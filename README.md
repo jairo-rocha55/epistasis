@@ -1,3 +1,3 @@
 # epistasis
-cancer genes
-Unzip the file to get a project that gets epistaric genes in cancer.
+cancer genes.
+Unzip the file to get a project that gets epistatic genes in cancer.

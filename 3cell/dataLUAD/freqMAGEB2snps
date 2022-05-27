@@ -1,0 +1,17 @@
+"M...1." "normal" "tumor"
+"1" "X:30219532:G:A:nonsynonymous_SNV:0.0193377:MAGEB2" 5 5
+"2" "X:30218887:A:G:nonsynonymous_SNV:0.0238411:MAGEB2" 4 4
+"3" "X:30219305:G:T:nonsynonymous_SNV:0.0:MAGEB2" 0 1
+"4" "X:30218615:G:T:nonsynonymous_SNV:0.0:MAGEB2" 0 1
+"5" "X:30219267:G:T:nonsynonymous_SNV:0.0:MAGEB2" 0 1
+"6" "X:30219012:G:T:nonsynonymous_SNV:0.0:MAGEB2" 0 1
+"7" "X:30219452:T:G:nonsynonymous_SNV:0.0006:MAGEB2" 2 2
+"8" "X:30219330:AG:A:frameshift_deletion:0.0:MAGEB2" 0 1
+"9" "X:30218761:G:A:nonsynonymous_SNV:0.9491:MAGEB2" 308 311
+"10" "X:30219388:C:A:nonsynonymous_SNV:0.0:MAGEB2" 0 1
+"11" "X:30218627:G:T:nonsynonymous_SNV:0.0004:MAGEB2" 4 4
+"12" "X:30218657:A:G:nonsynonymous_SNV:0.0009:MAGEB2" 2 2
+"13" "X:30219158:T:C:nonsynonymous_SNV:0.0:MAGEB2" 0 1
+"14" "X:30219175:C:A:nonsynonymous_SNV:0.000264901:MAGEB2" 0 1
+"15" "X:30219134:A:T:nonsynonymous_SNV:0.0:MAGEB2" 0 1
+"16" "X:30218934:G:T:nonsynonymous_SNV:0.0:MAGEB2" 0 1

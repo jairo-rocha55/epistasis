@@ -1,0 +1,4 @@
+annovar_downdb.log              hg19_cytoBand.txt        hg19_esp6500si_all.txt.idx  hg38_avsnp147.txt.idx
+hg19_AMR.sites.2015_08.txt.idx  hg19_dbnsfp30a.txt       hg19_knownGeneMrna.fa       hg38_exac03.txt.idx
+hg19_cg46.txt                   hg19_ensGene.txt         hg19_ljb_pp2.txt.idx        hg38_refGeneMrna.fa
+hg19_clinvar_20160302.txt       hg19_esp6500_ea.txt.idx  hg38_ALL.sites.2015_08.txt

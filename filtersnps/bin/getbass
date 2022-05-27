@@ -1,0 +1,3 @@
+scp bass.uib.es:epistasis3/filtersnps/$1/MatrixGene .
+scp bass.uib.es:epistasis3/filtersnps/$1/Matrix .
+

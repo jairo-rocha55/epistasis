@@ -1,0 +1,303 @@
+%!PS-Adobe-3.1 EPSF-3.0
+%%BoundingBox: 0 0 540 10
+%%LanguageLevel: 3
+
+%% Common postScript header.
+
+/boxHere {
+% Draw a box at current position.
+% Usage width height boxAt
+dup 0 exch   %stack width height 0 height
+rlineto      %stack width height
+exch dup 0   %stack height width width 0
+rlineto      %stack height width
+exch         %stack width height
+0 exch       %stack width 0 height
+neg          %stack width 0 -height
+rlineto      %stack width
+neg 0        %stack -width 0
+rlineto
+} def
+
+/boxAt {
+% Draw a box at a position.  Usage:
+% width height x y boxAt
+moveto
+boxHere
+} def
+
+/fillBox {
+% Draw filled box at a position. Usage:
+% width height x y fillBox
+newpath
+boxAt
+fill
+} def
+
+/strokeBox {
+% Draw stroked box at a position. Usage:
+% width height x y strokeBox
+newpath
+boxAt
+stroke
+} def
+
+/smallFont {
+/Times-Roman findfont
+10 scalefont
+setfont
+} def
+
+/showBefore {
+% Draw text immediately before rather
+% than immediately after current position.
+% Usage (some text) showBefore
+dup
+stringwidth
+neg
+exch
+neg
+exch
+rmoveto
+show
+} def
+
+/showMiddle {
+% Draw text centered at current position.
+% Usage (some text) showMiddle
+dup stringwidth
+2 div neg
+exch
+2 div neg
+exch
+rmoveto
+show
+} def
+
+/ellipse {
+/endangle exch def
+/startangle exch def
+/yrad exch def
+/xrad exch def
+/y exch def
+/x exch def
+/savematrix matrix currentmatrix def
+x y translate
+xrad yrad scale
+0 0 1 startangle endangle arc
+savematrix setmatrix
+} def
+/fillTextBox {
+true charpath pathbbox
+/y2 exch def /x2 exch def
+/y1 exch def /x1 exch def
+/w x2 x1 sub def
+/h y2 y1 sub def
+w h x1 y1 fillBox
+} def
+
+smallFont
+
+gsave
+cliprestore 0 0 540 9.4169 rectclip
+0.294278 setlinewidth
+1 0.7059 0.7059 setrgbcolor
+0.2943 9.4169 45.3188 0 fillBox
+cliprestore 0.2943 0 45.0245 9.1226 rectclip
+0.0471 0.0471 0.4706 setrgbcolor
+/Helvetica findfont 3.884469 scalefont setfont
+45.1717 0.9123 moveto
+(UCSC Genes) showBefore
+cliprestore 0 0 540 9.4169 rectclip
+cliprestore 45.9074 0 493.7984 9.4169 rectclip
+0.8627 0.8627 1 setrgbcolor
+0.2943 9.4169 49.1444 0 fillBox
+0.2943 9.4169 52.6757 0 fillBox
+0.2943 9.4169 56.2071 0 fillBox
+0.2943 9.4169 59.7384 0 fillBox
+0.2943 9.4169 63.2698 0 fillBox
+0.2943 9.4169 66.8011 0 fillBox
+0.2943 9.4169 70.3324 0 fillBox
+0.2943 9.4169 73.8638 0 fillBox
+0.2943 9.4169 77.3951 0 fillBox
+0.2943 9.4169 80.9264 0 fillBox
+0.2943 9.4169 84.4578 0 fillBox
+0.2943 9.4169 87.9891 0 fillBox
+0.2943 9.4169 91.5204 0 fillBox
+0.2943 9.4169 95.0518 0 fillBox
+0.2943 9.4169 98.5831 0 fillBox
+0.2943 9.4169 102.1144 0 fillBox
+0.2943 9.4169 105.6458 0 fillBox
+0.2943 9.4169 109.1771 0 fillBox
+0.2943 9.4169 112.7084 0 fillBox
+0.2943 9.4169 116.2398 0 fillBox
+0.2943 9.4169 119.7711 0 fillBox
+0.2943 9.4169 123.3025 0 fillBox
+0.2943 9.4169 126.8338 0 fillBox
+0.2943 9.4169 130.3651 0 fillBox
+0.2943 9.4169 133.8965 0 fillBox
+0.2943 9.4169 137.4278 0 fillBox
+0.2943 9.4169 140.9591 0 fillBox
+0.2943 9.4169 144.4905 0 fillBox
+0.2943 9.4169 148.0218 0 fillBox
+0.2943 9.4169 151.5531 0 fillBox
+0.2943 9.4169 155.0845 0 fillBox
+0.2943 9.4169 158.6158 0 fillBox
+0.2943 9.4169 162.1471 0 fillBox
+0.2943 9.4169 165.6785 0 fillBox
+0.2943 9.4169 169.2098 0 fillBox
+0.2943 9.4169 172.7411 0 fillBox
+0.2943 9.4169 176.2725 0 fillBox
+0.2943 9.4169 179.8038 0 fillBox
+0.2943 9.4169 183.3351 0 fillBox
+0.2943 9.4169 186.8665 0 fillBox
+0.2943 9.4169 190.3978 0 fillBox
+0.2943 9.4169 193.9292 0 fillBox
+0.2943 9.4169 197.4605 0 fillBox
+0.2943 9.4169 200.9918 0 fillBox
+0.2943 9.4169 204.5232 0 fillBox
+0.2943 9.4169 208.0545 0 fillBox
+0.2943 9.4169 211.5858 0 fillBox
+0.2943 9.4169 215.1172 0 fillBox
+0.2943 9.4169 218.6485 0 fillBox
+0.2943 9.4169 222.1798 0 fillBox
+0.2943 9.4169 225.7112 0 fillBox
+0.2943 9.4169 229.2425 0 fillBox
+0.2943 9.4169 232.7738 0 fillBox
+0.2943 9.4169 236.3052 0 fillBox
+0.2943 9.4169 239.8365 0 fillBox
+0.2943 9.4169 243.3678 0 fillBox
+0.2943 9.4169 246.8992 0 fillBox
+0.2943 9.4169 250.4305 0 fillBox
+0.2943 9.4169 253.9619 0 fillBox
+0.2943 9.4169 257.4932 0 fillBox
+0.2943 9.4169 261.0245 0 fillBox
+0.2943 9.4169 264.5559 0 fillBox
+0.2943 9.4169 268.0872 0 fillBox
+0.2943 9.4169 271.6185 0 fillBox
+0.2943 9.4169 275.1499 0 fillBox
+0.2943 9.4169 278.6812 0 fillBox
+0.2943 9.4169 282.2125 0 fillBox
+0.2943 9.4169 285.7439 0 fillBox
+0.2943 9.4169 289.2752 0 fillBox
+0.2943 9.4169 292.8065 0 fillBox
+0.2943 9.4169 296.3379 0 fillBox
+0.2943 9.4169 299.8692 0 fillBox
+0.2943 9.4169 303.4005 0 fillBox
+0.2943 9.4169 306.9319 0 fillBox
+0.2943 9.4169 310.4632 0 fillBox
+0.2943 9.4169 313.9946 0 fillBox
+0.2943 9.4169 317.5259 0 fillBox
+0.2943 9.4169 321.0572 0 fillBox
+0.2943 9.4169 324.5886 0 fillBox
+0.2943 9.4169 328.1199 0 fillBox
+0.2943 9.4169 331.6512 0 fillBox
+0.2943 9.4169 335.1826 0 fillBox
+0.2943 9.4169 338.7139 0 fillBox
+0.2943 9.4169 342.2452 0 fillBox
+0.2943 9.4169 345.7766 0 fillBox
+0.2943 9.4169 349.3079 0 fillBox
+0.2943 9.4169 352.8392 0 fillBox
+0.2943 9.4169 356.3706 0 fillBox
+0.2943 9.4169 359.9019 0 fillBox
+0.2943 9.4169 363.4332 0 fillBox
+0.2943 9.4169 366.9646 0 fillBox
+0.2943 9.4169 370.4959 0 fillBox
+0.2943 9.4169 374.0272 0 fillBox
+0.2943 9.4169 377.5586 0 fillBox
+0.2943 9.4169 381.0899 0 fillBox
+0.2943 9.4169 384.6213 0 fillBox
+0.2943 9.4169 388.1526 0 fillBox
+0.2943 9.4169 391.6839 0 fillBox
+0.2943 9.4169 395.2153 0 fillBox
+0.2943 9.4169 398.7466 0 fillBox
+0.2943 9.4169 402.2779 0 fillBox
+0.2943 9.4169 405.8093 0 fillBox
+0.2943 9.4169 409.3406 0 fillBox
+0.2943 9.4169 412.8719 0 fillBox
+0.2943 9.4169 416.4033 0 fillBox
+0.2943 9.4169 419.9346 0 fillBox
+0.2943 9.4169 423.4659 0 fillBox
+0.2943 9.4169 426.9973 0 fillBox
+0.2943 9.4169 430.5286 0 fillBox
+0.2943 9.4169 434.0599 0 fillBox
+0.2943 9.4169 437.5913 0 fillBox
+0.2943 9.4169 441.1226 0 fillBox
+0.2943 9.4169 444.6540 0 fillBox
+0.2943 9.4169 448.1853 0 fillBox
+0.2943 9.4169 451.7166 0 fillBox
+0.2943 9.4169 455.2480 0 fillBox
+0.2943 9.4169 458.7793 0 fillBox
+0.2943 9.4169 462.3106 0 fillBox
+0.2943 9.4169 465.8420 0 fillBox
+0.2943 9.4169 469.3733 0 fillBox
+0.2943 9.4169 472.9046 0 fillBox
+0.2943 9.4169 476.4360 0 fillBox
+0.2943 9.4169 479.9673 0 fillBox
+0.2943 9.4169 483.4986 0 fillBox
+0.2943 9.4169 487.0300 0 fillBox
+0.2943 9.4169 490.5613 0 fillBox
+0.2943 9.4169 494.0926 0 fillBox
+0.2943 9.4169 497.6240 0 fillBox
+0.2943 9.4169 501.1553 0 fillBox
+0.2943 9.4169 504.6866 0 fillBox
+0.2943 9.4169 508.2180 0 fillBox
+0.2943 9.4169 511.7493 0 fillBox
+0.2943 9.4169 515.2807 0 fillBox
+0.2943 9.4169 518.8120 0 fillBox
+0.2943 9.4169 522.3433 0 fillBox
+0.2943 9.4169 525.8747 0 fillBox
+0.2943 9.4169 529.4060 0 fillBox
+0.2943 9.4169 532.9373 0 fillBox
+0.2943 9.4169 536.4687 0 fillBox
+cliprestore 0 0 540 9.4169 rectclip
+cliprestore 45.9074 0.2943 493.7984 8.8283 rectclip
+0.0471 0.0471 0.4706 setrgbcolor
+292.9537 5.3264 moveto
+(UCSC Genes \(RefSeq, GenBank, CCDS, Rfam, tRNAs & Comparative Genomics\)) showMiddle
+cliprestore 0 0 540 9.4169 rectclip
+cliprestore 45.9074 0 493.7984 4.7084 rectclip
+newpath
+46.3488 2.5014 moveto
+539.5586 2.5014 lineto
+stroke
+0.5886 4.4142 539.1172 0.2943 fillBox
+0.8828 4.4142 504.3924 0.2943 fillBox
+0.5886 4.4142 501.1553 0.2943 fillBox
+0.2943 4.4142 492.3270 0.2943 fillBox
+0.5886 4.4142 490.2670 0.2943 fillBox
+1.4714 4.4142 454.9537 0.2943 fillBox
+0.2943 4.4142 388.1526 0.2943 fillBox
+0.5886 4.4142 351.3678 0.2943 fillBox
+0.8828 4.4142 286.0381 0.2943 fillBox
+0.5886 4.4142 280.1526 0.2943 fillBox
+0.8828 4.4142 252.4905 0.2943 fillBox
+0.5886 4.4142 233.6567 0.2943 fillBox
+0.5886 4.4142 211.8801 0.2943 fillBox
+0.8828 4.4142 135.9564 0.2943 fillBox
+0.5886 4.4142 105.6458 0.2943 fillBox
+0.2943 4.4142 61.5041 0.2943 fillBox
+0.2943 4.4142 45.9074 0.2943 fillBox
+0.5098 0.5098 0.8235 setrgbcolor
+newpath
+46.3488 2.5014 moveto
+539.5586 2.5014 lineto
+stroke
+0.5886 4.4142 539.1172 0.2943 fillBox
+0.8828 4.4142 504.3924 0.2943 fillBox
+0.5886 4.4142 501.1553 0.2943 fillBox
+0.2943 4.4142 492.3270 0.2943 fillBox
+0.5886 4.4142 490.2670 0.2943 fillBox
+1.4714 4.4142 454.9537 0.2943 fillBox
+0.2943 4.4142 388.1526 0.2943 fillBox
+0.5886 4.4142 351.3678 0.2943 fillBox
+0.8828 4.4142 286.0381 0.2943 fillBox
+0.5886 4.4142 280.1526 0.2943 fillBox
+0.8828 4.4142 252.4905 0.2943 fillBox
+0.5886 4.4142 233.6567 0.2943 fillBox
+0.5886 4.4142 211.8801 0.2943 fillBox
+0.2943 2.6485 135.9564 1.1771 fillBox
+0.5886 4.4142 136.2507 0.2943 fillBox
+0.5886 2.6485 105.6458 1.1771 fillBox
+0.2943 2.6485 45.9074 1.1771 fillBox
+cliprestore 0 0 540 9.4169 rectclip

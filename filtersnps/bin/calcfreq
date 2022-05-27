@@ -1,0 +1,6 @@
+fgrep -w $1 ../../filtersnps/$3/Matrix > $1snps
+Rscript ../../filtersnps/bin/freqSNPS.R $1snps
+fgrep -w $2 ../../filtersnps/$3/Matrix > $2snps
+Rscript ../../filtersnps/bin/freqSNPS.R $2snps
+#cat $1snps $2snps > MatrixTopSnps
+

@@ -1,0 +1,22 @@
+#Filter annotated files
+
+
+annovar_dir="/home/jairo/epistasis/annotations/COAD/annovarOut"
+file_list="dataCOAD/fileList"
+NUMSUBJECTS=422 # size of file_list 
+MINAD=10
+MINRATIO=0.1 
+comm="python bin/COADFilterAnnovarFiles.py $annovar_dir $file_list 19 -n 20 --maf 1.0 --no-pass --filtMut --minAD $MINAD --minRatioAD_DP $MINRATIO"
+echo $comm
+$comm
+
+
+MAF=1.0  
+PERCMUTTUMOR=0  # It is 0 for gene analysis
+PERCMUTNORMAL=100
+#Create SNP matrix
+MATRIXName="dataCOAD/Matrix"
+comm="python bin/SNPStumorAndnormalFilteredFiles.py $annovar_dir $file_list -o $MATRIXName --nsubjects $NUMSUBJECTS  --minPercMutTumor $PERCMUTTUMOR  --maxPercMutNormal $PERCMUTNORMAL --maf $MAF"
+echo $comm
+$comm
+

@@ -1,0 +1,4 @@
+cc -O UniTumorNormal.c -lm -o UniTumorNormal
+
+	#execute:    ./UniTumorNormal FreqGeneFile1 -N NumSamples*2 > ChisqFile
+

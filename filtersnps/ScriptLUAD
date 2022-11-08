@@ -8,8 +8,8 @@ NUMSUBJECTS=405 # size of file_list
 MINAD=10
 MINRATIO=0.10
 comm="python bin/COADFilterAnnovarFiles.py $annovar_dir $file_list 19 -n 20 --maf 1.0 --no-pass --filtMut --minAD $MINAD --minRatioAD_DP $MINRATIO"
-#echo $comm
-#$comm
+echo $comm
+$comm
 
 
 MAF=1.0

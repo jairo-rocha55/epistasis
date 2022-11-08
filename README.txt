@@ -13,7 +13,7 @@ Input files are VCF files from TCGA to be processed with Annovar.
  Then with convert2annovar
  Finally with annotateVariation
 
-If we want to fitler:
+If we want to filter:
 python SNPFilterAnnovarFiles.py table_annovar_dir files_list.txt 19 -n 20 --maf 0.005 --filtMut --minAD 10 --minRatioAD_DP 0.05
 
 Create SNP x subjects matrix 

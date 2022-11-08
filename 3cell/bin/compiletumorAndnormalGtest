@@ -1,0 +1,6 @@
+cc -O tumorAndnormalGtest.c -lm -o tumorAndnormalGtest
+
+	#execute:    ./tumorAndnormalInd FreqGeneFile1 FreqGeneFile2 -N NumSamples*2 -k minsubj > PairsFile
+
+
+#                         minsubj= minimum number of subjects that must be mutated in tumor and not in normal.

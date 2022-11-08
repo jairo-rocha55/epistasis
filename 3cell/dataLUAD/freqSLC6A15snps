@@ -1,0 +1,17 @@
+"M...1." "normal" "tumor"
+"1" "12:84883782:T:A:nonsynonymous_SNV:0.1405:SLC6A15" 134 134
+"2" "12:84872705:G:A:nonsynonymous_SNV:0.0166:SLC6A15" 5 5
+"3" "12:84861759:T:G:nonsynonymous_SNV:0.0:SLC6A15" 0 1
+"4" "12:84861773:C:A:nonsynonymous_SNV:0.0023:SLC6A15" 1 1
+"5" "12:84876552:C:A:nonsynonymous_SNV:0.0:SLC6A15" 0 1
+"6" "12:84883813:C:T:nonsynonymous_SNV:0.0473243:SLC6A15" 4 4
+"7" "12:84883915:C:G:nonsynonymous_SNV:0.0:SLC6A15" 0 1
+"8" "12:84883836:A:G:nonsynonymous_SNV:0.0473243:SLC6A15" 5 5
+"9" "12:84863494:C:G:nonsynonymous_SNV:0.0:SLC6A15" 0 1
+"10" "12:84870663:T:A:nonsynonymous_SNV:8.412e-06:SLC6A15" 0 1
+"11" "12:84891993:C:T:nonsynonymous_SNV:0.0:SLC6A15" 0 1
+"12" "12:84867166:A:T:nonsynonymous_SNV:0.0:SLC6A15" 0 1
+"13" "12:84867061:G:T:nonsynonymous_SNV:0.0:SLC6A15" 0 1
+"14" "12:84861726:C:G:nonsynonymous_SNV:0.0:SLC6A15" 0 1
+"15" "12:84885461:G:T:nonsynonymous_SNV:0.0:SLC6A15" 0 1
+"16" "12:84885947:G:T:nonsynonymous_SNV:0.0:SLC6A15" 0 1

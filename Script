@@ -1,0 +1,4 @@
+(cd ~/epistasis/annotations; nohup ./ScriptCOAD)  #annovar
+(cd ~/epistasis/filtersnps/; nohup ./ScriptCOAD19)  #filterSNPs
+(cd ~/epistasis/3cell; nohup ./Script dataCOAD) #Gene pairs contingency tables
+(cd ~/epistasis/survival/bin;  ./ScriptCOAD ) # Generate differences survival data 

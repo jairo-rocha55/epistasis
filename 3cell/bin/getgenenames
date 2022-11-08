@@ -1,0 +1,4 @@
+head -$2 $1 > tmp
+cut -f 1 -d " " tmp > tmp1
+cut -f 2 -d " " tmp >> tmp1
+ 

@@ -1,0 +1,3 @@
+nohup ./Script dataCOAD
+               dataLUAD
+

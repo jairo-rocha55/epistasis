@@ -1,0 +1,13 @@
+#!/bin/bash
+
+path=$1  
+fgrep -v -w -f $path/removegenenames ../filtersnps/$path/MatrixGene > $path/MatrixGene 
+bin/UniTumorNormal $path/MatrixGene -N 4000 -k 0 > $path/GMat
+bin/tumorAndnormalGtest $path/GMat $path/GMat -N 4000 -k 0  > $path/GPairsValues 
+
+qvalue=0.05
+read numcells <<< `head -1 $path/GMatGMatPairs.size`   #GMatNoSinglesglesPairs.size`
+echo $numcells 
+Rscript bin/calcTopGtest.R $path/GPairsValues $path/GPairsPvalues $qvalue $numcells $path/PValues
+
+

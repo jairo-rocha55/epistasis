@@ -1,0 +1,10 @@
+#homepath="/home/jairo"
+#binpath="$homepath/epistasis/pairs/bin"
+datapath="dataLUAD"
+
+
+Rscript SurvGroupsCOAD.R ../../3cell/$datapath/GMat ../../3cell/$datapath/GPairsPvaluesTop1  ../$datapath/luad_survival.tsv ../$datapath/files_list_405_TCGA.txt ../$datapath/SurvSol.txt
+
+#sort -k4 -g ../dataLUAD/SurvSol.txt > ../dataLUAD/SurvSolSorted
+
+#/bin/rm ../dataLUAD/SurvSol.txt 

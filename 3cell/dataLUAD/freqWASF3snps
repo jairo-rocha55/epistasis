@@ -1,0 +1,14 @@
+"M...1." "normal" "tumor"
+"1" "13:26682867:C:T:nonsynonymous_SNV:0.057508:WASF3" 8 8
+"2" "13:26682932:A:G:nonsynonymous_SNV:0.00858626:WASF3" 2 2
+"3" "13:26676668:G:T:nonsynonymous_SNV:0.0005:WASF3" 1 1
+"4" "13:26685844:G:T:stoploss:0.0:WASF3" 0 1
+"5" "13:26682765:C:G:nonsynonymous_SNV:0.0022:WASF3" 2 2
+"6" "13:26667570:G:T:nonsynonymous_SNV:0.0:WASF3" 0 1
+"7" "13:26681101:A:G:nonsynonymous_SNV:0.0:WASF3" 0 1
+"8" "13:26681254:C:A:nonsynonymous_SNV:0.0001:WASF3" 1 1
+"9" "13:26682804:C:A:nonsynonymous_SNV:0.0:WASF3" 0 1
+"10" "13:26682831:C:T:nonsynonymous_SNV:0.0:WASF3" 1 1
+"11" "13:26681265:C:G:nonsynonymous_SNV:0.0041:WASF3" 1 1
+"12" "13:26667531:A:T:nonsynonymous_SNV:0.0:WASF3" 0 1
+"13" "13:26682740:G:T:nonsynonymous_SNV:0.0:WASF3" 0 2

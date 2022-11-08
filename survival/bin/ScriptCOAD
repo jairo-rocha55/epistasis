@@ -1,0 +1,13 @@
+homepath="/home/jairo"
+binpath="$homepath/epistasis/pairs/bin"
+datapath="../dataCOAD"
+
+
+Rscript SurvGroupsCOAD.R ../../3cell/dataCOAD/GMat ../../3cell/dataCOAD/GPairsPvaluesTop1  ../dataCOAD/coad_survival.tsv ../dataCOAD/filelistTCGA422 ../dataCOAD/SurvSol.txt
+
+#sort -k4 -g ../dataCOAD/SurvSol.txt > ../dataCOAD/SurvSolSorted
+
+#/bin/rm ../dataCOAD/SurvSol.txt 
+
+#more ../dataCOAD/SurvSolSorted
+

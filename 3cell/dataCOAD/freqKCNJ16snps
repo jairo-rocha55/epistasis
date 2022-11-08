@@ -1,0 +1,15 @@
+"M...1." "normal" "tumor"
+"1" "17:68128475:C:A:nonsynonymous_SNV:0.0:KCNJ16" 0 2
+"2" "17:68128332:G:A:nonsynonymous_SNV:0.0006:KCNJ16" 1 1
+"3" "17:68128812:G:T:nonsynonymous_SNV:0.0:KCNJ16" 0 1
+"4" "17:68128957:C:A:nonsynonymous_SNV:3.332e-05:KCNJ16" 1 1
+"5" "17:68128259:A:G:nonsynonymous_SNV:0.0772764:KCNJ16" 25 26
+"6" "17:68128832:C:T:nonsynonymous_SNV:2.489e-05:KCNJ16" 0 1
+"7" "17:68128833:G:T:nonsynonymous_SNV:9.126e-05:KCNJ16" 1 1
+"8" "17:68129306:C:T:stopgain:1.648e-05:KCNJ16" 0 1
+"9" "17:68128833:G:A:nonsynonymous_SNV:9.126e-05:KCNJ16" 0 1
+"10" "17:68128451:G:C:nonsynonymous_SNV:0.0:KCNJ16" 0 1
+"11" "17:68128892:C:T:nonsynonymous_SNV:0.0002:KCNJ16" 1 2
+"12" "17:68128571:G:A:nonsynonymous_SNV:8.247e-05:KCNJ16" 0 1
+"13" "17:68128139:C:A:nonsynonymous_SNV:0.0:KCNJ16" 0 1
+"14" "17:68129048:G:T:nonsynonymous_SNV:0.0:KCNJ16" 0 1

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+path="dataLUAD"
+bin/GenerateDistribRandom $path/GMat $path/GMat -N 2000 -k 0 > $path/Distribution
+
+

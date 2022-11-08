@@ -1,0 +1,2 @@
+cc -O GenerateDistribRandom.c  -lm -o GenerateDistribRandom
+
